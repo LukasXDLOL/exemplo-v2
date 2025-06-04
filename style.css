@@ -1,0 +1,43 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a64ca6; /* Roxo mais claro */
+    color: white;
+    min-height: 100vh;
+}
+
+/* Cabeçalho com o retângulo roxo escuro */
+header {
+    background-color: #7a337a; /* Roxo mais escuro */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navegação */
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Conteúdo principal */
+.conteudo {
+    padding: 40px;
+    text-align: center;
+}
